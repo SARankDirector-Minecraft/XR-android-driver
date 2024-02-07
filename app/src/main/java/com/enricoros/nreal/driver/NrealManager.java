@@ -28,8 +28,9 @@ public class NrealManager {
 
   private static final String TAG = "NrealManager";
 
+  //Using the PID from Air 2 instead of Air 1
   private static final int NREAL_AIR_VENDOR_ID = 0x3318;
-  private static final int NREAL_AIR_PRODUCT_ID = 0x0424;
+  private static final int NREAL_AIR_PRODUCT_ID = 0x0428;
 
   private static final String CUSTOM_BROADCAST_PERMISSION_ACTION = "ai.enrico.mindlet.NREAL_USB_PERMISSION";
 

@@ -10,6 +10,9 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.chaquo.python.PyObject;
+import com.chaquo.python.Python;
+import com.chaquo.python.android.AndroidPlatform;
 import com.enricoros.nreal.databinding.ActivityMainBinding;
 import com.enricoros.nreal.driver.ImuDataRaw;
 import com.enricoros.nreal.driver.NrealManager;
@@ -19,6 +22,9 @@ public class MainActivity extends AppCompatActivity {
   private NrealManager nrealManager;
   private ActivityMainBinding binding;
   private ImuDataRaw mImuDataRaw;
+  private Python Py;
+  private PyObject fuser;
+  private PyObject fsr;
 
 
   @Override
@@ -30,6 +36,10 @@ public class MainActivity extends AppCompatActivity {
     appendLog("Welcome. Logs will appear below.\n");
 
     nrealManager = new NrealManager(getApplicationContext(), mNrealListener);
+    Python.start(new AndroidPlatform(this) );
+    Py = Python.getInstance();
+    fuser = Py.getModule("Sensorfusion");
+    fsr = fuser.callAttr("fuse");
   }
 
 
@@ -112,11 +122,13 @@ public class MainActivity extends AppCompatActivity {
   @SuppressLint("SetTextI18n")
   private void updateStatus() {
     if (nrealManager != null)
-      binding.statusTextContent.setText("" +
+      /*binding.statusTextContent.setText("" +
           (nrealManager.isDeviceConnected() ? "Connected" : "Disconnected") + ", " +
           (nrealManager.isDeviceStreaming() ? "and Streaming" : "NOT streaming") + "\n" +
           (mImuDataRaw == null ? "No IMU data" : mImuDataRaw.toString())
-      );
+      )
+       */
+      binding.statusTextContent.setText(fsr.callAttr("fuse_sensors",mImuDataRaw).toString());
   }
 
 }
