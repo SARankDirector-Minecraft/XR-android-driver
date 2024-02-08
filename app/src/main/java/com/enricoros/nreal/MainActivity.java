@@ -122,13 +122,17 @@ public class MainActivity extends AppCompatActivity {
   @SuppressLint("SetTextI18n")
   private void updateStatus() {
     if (nrealManager != null)
+    //Original output from the original driver (commented out).
       /*binding.statusTextContent.setText("" +
           (nrealManager.isDeviceConnected() ? "Connected" : "Disconnected") + ", " +
           (nrealManager.isDeviceStreaming() ? "and Streaming" : "NOT streaming") + "\n" +
           (mImuDataRaw == null ? "No IMU data" : mImuDataRaw.toString())
       )
        */
-      binding.statusTextContent.setText(fsr.callAttr("fuse_sensors",mImuDataRaw).toString());
+
+      if (mImuDataRaw.RawValueArray != null){
+        binding.statusTextContent.setText(fsr.callAttr("fuse_sensors",mImuDataRaw.RawValueArray,mImuDataRaw.GyroMultiplier, mImuDataRaw.GyroDivisor,mImuDataRaw.AccelMultiplier, mImuDataRaw.AccelDivisor).toString());
+      }
   }
 
 }

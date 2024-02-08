@@ -8,14 +8,21 @@ import androidx.annotation.NonNull;
 public class ImuDataRaw {
   int accelX, accelY, accelZ;
   int angVelX, angVelY, angVelZ;
+  public static int GyroMultiplier, AccelMultiplier;
   int magX, magY, magZ;
   long uptimeNs;
+  public static long GyroDivisor, AccelDivisor;
   String _tmpOther;
+  public static int[] RawValueArray = new int[9];
 
-  void update(int accelX, int accelY, int accelZ, int angVelX, int angVelY, int angVelZ, int magX, int magY, int magZ, long uptimeNs) {
+  void update(int AccelMultiplier, long AccelDivisor,int accelX, int accelY, int accelZ, int GyroMultiplier,long GyroDivisor, int angVelX, int angVelY, int angVelZ, int magX, int magY, int magZ, long uptimeNs) {
+    this.AccelMultiplier = AccelMultiplier;
+    this.AccelDivisor = AccelDivisor;
     this.accelX = accelX;
     this.accelY = accelY;
     this.accelZ = accelZ;
+    this.GyroMultiplier = GyroMultiplier;
+    this.GyroDivisor = GyroDivisor;
     this.angVelX = angVelX;
     this.angVelY = angVelY;
     this.angVelZ = angVelZ;
@@ -23,6 +30,15 @@ public class ImuDataRaw {
     this.magY = magY;
     this.magZ = magZ;
     this.uptimeNs = uptimeNs;
+    RawValueArray[0] = accelX;
+    RawValueArray[1] = accelY;
+    RawValueArray[2] = accelZ;
+    RawValueArray[3] = angVelX;
+    RawValueArray[4] = angVelY;
+    RawValueArray[5] = angVelZ;
+    RawValueArray[6] = magX;
+    RawValueArray[7] = magY;
+    RawValueArray[8] = magZ;
   }
 
   void update(String other) {
@@ -41,6 +57,15 @@ public class ImuDataRaw {
     this.magZ = 0;
     this.uptimeNs = 0;
     this._tmpOther = null;
+    RawValueArray[0] = 0;
+    RawValueArray[1] = 0;
+    RawValueArray[2] = 0;
+    RawValueArray[3] = 0;
+    RawValueArray[4] = 0;
+    RawValueArray[5] = 0;
+    RawValueArray[6] = 0;
+    RawValueArray[7] = 0;
+    RawValueArray[8] = 0;
   }
 
   // copy constructor - used for now to send between threads

@@ -144,10 +144,14 @@ class NrealDeviceThread extends Thread {
     long uptimeNs = ((long) imuData[4] & 0xFF) | (((long) imuData[5] & 0xFF) << 8) | (((long) imuData[6] & 0xFF) << 16) | (((long) imuData[7] & 0xFF) << 24) |
         (((long) imuData[8] & 0xFF) << 32) | (((long) imuData[9] & 0xFF) << 40) | (((long) imuData[10] & 0xFF) << 48) | (((long) imuData[11] & 0xFF) << 56);
     // [12 ... 17] = A0 0F 00 00 00 01
+    int GyroMultiplier =  (imuData[12] & 0xFF) | ((imuData[13] & 0xFF) << 8);
+    long GyroDivisor = (imuData[14] & 0xFF) | ((imuData[15] & 0xFF) << 8) | ((imuData[16] & 0xFF) << 16) |((imuData[17] & 0xFF) << 24);
     int angVelX = (imuData[18] & 0xFF) | ((imuData[19] & 0xFF) << 8) | ((imuData[20] & 0xFF) << 16) | ((imuData[20] & 0x80) != 0 ? (0xFF << 24) : 0);
     int angVelY = (imuData[21] & 0xFF) | ((imuData[22] & 0xFF) << 8) | ((imuData[23] & 0xFF) << 16) | ((imuData[23] & 0x80) != 0 ? (0xFF << 24) : 0);
     int angVelZ = (imuData[24] & 0xFF) | ((imuData[25] & 0xFF) << 8) | ((imuData[26] & 0xFF) << 16) | ((imuData[26] & 0x80) != 0 ? (0xFF << 24) : 0);
     // [27 ... 32] = 20 00 00 00 00 01
+    int Accelmultiplier =  (imuData[27] & 0xFF) | ((imuData[28] & 0xFF) << 8);
+    long AccelDivisor = (imuData[29] & 0xFF) | ((imuData[30] & 0xFF) << 8) | ((imuData[31] & 0xFF) << 16) |((imuData[32] & 0xFF) << 24);
     int accelX = (imuData[33] & 0xFF) | ((imuData[34] & 0xFF) << 8) | ((imuData[35] & 0xFF) << 16) | ((imuData[35] & 0x80) != 0 ? (0xFF << 24) : 0);
     int accelY = (imuData[36] & 0xFF) | ((imuData[37] & 0xFF) << 8) | ((imuData[38] & 0xFF) << 16) | ((imuData[38] & 0x80) != 0 ? (0xFF << 24) : 0);
     int accelZ = (imuData[39] & 0xFF) | ((imuData[40] & 0xFF) << 8) | ((imuData[41] & 0xFF) << 16) | ((imuData[41] & 0x80) != 0 ? (0xFF << 24) : 0);
@@ -155,13 +159,12 @@ class NrealDeviceThread extends Thread {
     int magX = (imuData[48] & 0xFF) | ((imuData[49] & 0xFF) << 8);
     int magY = (imuData[50] & 0xFF) | ((imuData[51] & 0xFF) << 8);
     int magZ = (imuData[52] & 0xFF) | ((imuData[53] & 0xFF) << 8);
-    //int counter2 = (imuData[54] & 0xFF) | ((imuData[55] & 0xFF) << 8) | ((imuData[56] & 0xFF) << 16) | ((imuData[57] & 0xFF) << 24);
     // [58 ... 63] = 00 00 00 00 (00 | 01) 00
     if (imuData[58] != 0 || imuData[59] != 0 || imuData[60] != 0 || imuData[61] != 0 || (imuData[62] != 0 && imuData[62] != 1) || imuData[63] != 0)
       printHex(imuData, 58, 6, "Unexpected IMU data (2): ");
 
     // call the callback
-    imuDataRaw.update(accelX, accelY, accelZ, angVelX, angVelY, angVelZ, magX, magY, magZ, uptimeNs);
+    imuDataRaw.update(Accelmultiplier,AccelDivisor,accelX, accelY, accelZ,GyroMultiplier,GyroDivisor, angVelX, angVelY, angVelZ, magX, magY, magZ, uptimeNs);
 
     // DATA PROCESSING
 

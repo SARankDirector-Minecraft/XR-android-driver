@@ -22,6 +22,7 @@ android {
             buildPython "python3.11"
             pip {
                 install "numpy"
+                install "ahrs"
             }
         }
     }
