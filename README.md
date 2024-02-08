@@ -4,7 +4,7 @@ XR-android-driver
 
 ## Description
 
-A project to allow usage of Xreal Air (and Potentially other) Glasses on android devices.
+A project to allow usage of Xreal Air (2) (and Potentially other) Glasses on android devices.
 
 ## Getting Started
 
