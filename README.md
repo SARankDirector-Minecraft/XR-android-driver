@@ -4,7 +4,16 @@ XR-android-driver
 
 ## Description
 
-A project to allow usage of Xreal Air (2) (and Potentially other) Glasses on android devices.
+A project to allow usage of Xreal Air (and Potentially other) Glasses on android devices. Currently built into a demo app that displays headings in degrees, generated through sensor fusion.
+
+### Project Goals
+- Port the library to a game engine
+- Improve Latency
+- Eliminate Drift
+- Support other AR Glasses.
+
+### Supported Devices
+XReal Air 1, XReal Air 2, XReal Air 2 Pro.
 
 ## Getting Started
 
@@ -17,7 +26,9 @@ A project to allow usage of Xreal Air (2) (and Potentially other) Glasses on and
 
 ### Installing
 
-Clone the repository into android studio, and build it for your device.
+- Clone the repository into android studio
+- Change NREAL_AIR_PRODUCT_ID to 0x0424 if using XReal Air 1
+- build and run it for your device.
 
 
 ## Authors
