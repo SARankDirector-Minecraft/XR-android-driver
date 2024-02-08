@@ -1,4 +1,4 @@
-package com.enricoros.nreal;
+package com.SARankDirector.nreal;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -13,9 +13,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.chaquo.python.PyObject;
 import com.chaquo.python.Python;
 import com.chaquo.python.android.AndroidPlatform;
-import com.enricoros.nreal.databinding.ActivityMainBinding;
-import com.enricoros.nreal.driver.ImuDataRaw;
-import com.enricoros.nreal.driver.NrealManager;
+import com.SARankDirector.nreal.databinding.ActivityMainBinding;
+import com.SARankDirector.nreal.driver.ImuDataRaw;
+import com.SARankDirector.nreal.driver.NrealManager;
 
 public class MainActivity extends AppCompatActivity {
 

@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.enricoros.nreal'
+    namespace 'com.SARankDirector.nreal'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.enricoros.nreal"
+        applicationId "com.SARankDirector.nreal"
         minSdk 27
         targetSdk 33
         versionCode 1
