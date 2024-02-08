@@ -10,10 +10,10 @@ A project to allow usage of Xreal Air (and Potentially other) Glasses on android
 
 ### Dependencies
 
-Android studio
-ahrs
-Chaquopy
-Ndk
+- Android studio
+- ahrs
+- Chaquopy
+- Ndk
 
 ### Installing
 
