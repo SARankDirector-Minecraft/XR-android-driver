@@ -47,6 +47,6 @@ This project is licensed under the BSD 3-Clause License - see the LICENSE.md fil
 
 * [awesome-readme](https://github.com/matiassingers/awesome-readme)
 * [AHRS](https://github.com/Mayitzin/ahrs)
-* [XRLinuxDriver]([https://github.com/dbader/readme-template](https://github.com/wheaney/XRLinuxDriver))
-* [VoidComputing]([https://gist.github.com/zenorocha/4526327](https://voidcomputing.hu/))
+* [XRLinuxDriver]((https://github.com/wheaney/XRLinuxDriver))
+* [VoidComputing](https://voidcomputing.hu/)
 * [android-nreal](https://github.com/enricoros/android-nreal)
