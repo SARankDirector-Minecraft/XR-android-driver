@@ -1,7 +1,7 @@
 #Written by @SARankDirector
 import java
 import inspect
-from com.SARankDirector.nreal.driver import ImuDataRaw
+from com.SARankDirector.libxr import ImuDataRaw
 #from fusion import Fusion
 import numpy as np
 import time

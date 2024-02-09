@@ -1,4 +1,4 @@
-package com.SARankDirector.nreal.driver;
+package com.SARankDirector.libxr;
 
 import android.annotation.SuppressLint;
 import android.content.SharedPreferences;
