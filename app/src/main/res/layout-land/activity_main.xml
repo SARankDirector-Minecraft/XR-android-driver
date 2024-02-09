@@ -74,7 +74,7 @@
   </ScrollView>
 
   <!-- Shows Vector(s) -->
-  <com.enricoros.nreal.VectorDisplayView
+  <com.SARankDirector.nreal.VectorDisplayView
       android:id="@+id/vectorDisplayView"
       android:layout_width="0dp"
       android:layout_height="0dp"

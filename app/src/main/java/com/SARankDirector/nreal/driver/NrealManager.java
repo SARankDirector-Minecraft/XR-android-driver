@@ -32,7 +32,7 @@ public class NrealManager {
   private static final int NREAL_AIR_VENDOR_ID = 0x3318;
   private static final int NREAL_AIR_PRODUCT_ID = 0x0428;
 
-  private static final String CUSTOM_BROADCAST_PERMISSION_ACTION = "ai.enrico.mindlet.NREAL_USB_PERMISSION";
+  private static final String CUSTOM_BROADCAST_PERMISSION_ACTION = "ai.SARankDirector.mindlet.NREAL_USB_PERMISSION";
 
   private final Handler uiHandler = new Handler(Looper.getMainLooper());
   private final Context context;

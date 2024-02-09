@@ -50,7 +50,7 @@
       tools:text="Status\nwill\nappear\nhere" />
 
   <!-- Shows Vector(s) -->
-  <com.enricoros.nreal.VectorDisplayView
+  <com.SARankDirector.nreal.VectorDisplayView
       android:id="@+id/vectorDisplayView"
       android:layout_width="match_parent"
       android:layout_height="0dp"
