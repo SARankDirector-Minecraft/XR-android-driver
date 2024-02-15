@@ -10,6 +10,7 @@ INJECTED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Go
 INJECTED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:2:1-55:12
 MERGED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:2:1-55:12
 MERGED from [godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:2:1-37:12
+MERGED from [LIBXR-debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/62f36cad8f549f28c4867f0fec567c24/transformed/jetified-LIBXR-debug/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.fragment:fragment:1.3.6] /home/sarankdirector/.gradle/caches/transforms-3/189e80978ed2f28e12fcb892018fb934/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /home/sarankdirector/.gradle/caches/transforms-3/60b70a67da3a50a8c8aaa4abfd2f41b4/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] /home/sarankdirector/.gradle/caches/transforms-3/eae47bfcf3b81fbbbfca8369bad2abdd/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -165,6 +166,8 @@ INJECTED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Go
 INJECTED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml
 MERGED from [godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:7:5-9:41
 MERGED from [godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:7:5-9:41
+MERGED from [LIBXR-debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/62f36cad8f549f28c4867f0fec567c24/transformed/jetified-LIBXR-debug/AndroidManifest.xml:5:5-7:41
+MERGED from [LIBXR-debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/62f36cad8f549f28c4867f0fec567c24/transformed/jetified-LIBXR-debug/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.fragment:fragment:1.3.6] /home/sarankdirector/.gradle/caches/transforms-3/189e80978ed2f28e12fcb892018fb934/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.3.6] /home/sarankdirector/.gradle/caches/transforms-3/189e80978ed2f28e12fcb892018fb934/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager:viewpager:1.0.0] /home/sarankdirector/.gradle/caches/transforms-3/60b70a67da3a50a8c8aaa4abfd2f41b4/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44

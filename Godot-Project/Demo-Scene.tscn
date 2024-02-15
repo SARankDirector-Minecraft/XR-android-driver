@@ -1,6 +1,9 @@
-[gd_scene format=3 uid="uid://brkklsgwgkcxo"]
+[gd_scene load_steps=2 format=3 uid="uid://brkklsgwgkcxo"]
+
+[ext_resource type="Script" path="res://XRManagerInterface.gd" id="1_gqy1b"]
 
 [node name="Node3D" type="Node3D"]
+script = ExtResource("1_gqy1b")
 
 [node name="Camera3D" type="Camera3D" parent="."]
 current = true

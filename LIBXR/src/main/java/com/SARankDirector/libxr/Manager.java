@@ -15,7 +15,10 @@ public class Manager {
     public static ImuDataRaw mImuDataRaw;
     private Context context;
 
-    public Manager(Context ApplicationContext) {
+    public Manager() {
+
+    }
+    public void init(Context ApplicationContext) {
         context = ApplicationContext;
         //Constructor
         nrealManager = new NrealManager(context, mNrealListener);

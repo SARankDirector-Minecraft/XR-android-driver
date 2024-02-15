@@ -39,7 +39,8 @@ public class MainActivity extends AppCompatActivity {
   protected void onStart() {
     super.onStart();
     appendLog("onStart -> connectToNrealUsbDevice()");
-    XRManager = new Manager(this);
+    XRManager = new Manager();
+    XRManager.init(this);
     XRManager.Connect();
   }
 
