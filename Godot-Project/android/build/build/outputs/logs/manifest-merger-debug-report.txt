@@ -10,7 +10,7 @@ INJECTED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Go
 INJECTED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:2:1-55:12
 MERGED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:2:1-55:12
 MERGED from [godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:2:1-37:12
-MERGED from [LIBXR-debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/62f36cad8f549f28c4867f0fec567c24/transformed/jetified-LIBXR-debug/AndroidManifest.xml:2:1-9:12
+MERGED from [LIBXR-debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/a8bf673ccc4828bb2443ba7caf111777/transformed/jetified-LIBXR-debug/AndroidManifest.xml:2:1-15:12
 MERGED from [androidx.fragment:fragment:1.3.6] /home/sarankdirector/.gradle/caches/transforms-3/189e80978ed2f28e12fcb892018fb934/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /home/sarankdirector/.gradle/caches/transforms-3/60b70a67da3a50a8c8aaa4abfd2f41b4/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] /home/sarankdirector/.gradle/caches/transforms-3/eae47bfcf3b81fbbbfca8369bad2abdd/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -27,9 +27,9 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/sarankdirector/.
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/sarankdirector/.gradle/caches/transforms-3/2b996d28c48d5c1eb8d894bdf0acc1d7/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/sarankdirector/.gradle/caches/transforms-3/64013006b098a13d4a16ea3f501af751/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/sarankdirector/.gradle/caches/transforms-3/10f722f628eb19ba09dfc654025baab7/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:2:1-32:12
-INJECTED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:2:1-32:12
-INJECTED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:2:1-32:12
+INJECTED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:2:1-31:12
+INJECTED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:2:1-31:12
+INJECTED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:2:1-31:12
 	package
 		ADDED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:4:5-29
 		INJECTED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml
@@ -79,6 +79,8 @@ MERGED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godo
 MERGED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:19:5-53:19
 MERGED from [godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:11:5-35:19
 MERGED from [godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:11:5-35:19
+MERGED from [LIBXR-debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/a8bf673ccc4828bb2443ba7caf111777/transformed/jetified-LIBXR-debug/AndroidManifest.xml:9:5-13:19
+MERGED from [LIBXR-debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/a8bf673ccc4828bb2443ba7caf111777/transformed/jetified-LIBXR-debug/AndroidManifest.xml:9:5-13:19
 MERGED from [androidx.core:core:1.2.0] /home/sarankdirector/.gradle/caches/transforms-3/9bcb1a65f5938aad264f4d73e9a06f28/transformed/core-1.2.0/AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.2.0] /home/sarankdirector/.gradle/caches/transforms-3/9bcb1a65f5938aad264f4d73e9a06f28/transformed/core-1.2.0/AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/sarankdirector/.gradle/caches/transforms-3/815dbb99d7764e42cc76436b6247ba35/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
@@ -101,7 +103,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/saran
 		ADDED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:21:9-36
 		REJECTED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:21:9-36
 	tools:replace
-		ADDED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:21:9-143
+		ADDED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:20:9-143
 	android:isGame
 		ADDED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:24:9-30
 		REJECTED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:24:9-30
@@ -114,7 +116,7 @@ MERGED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godo
 MERGED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:34:9-51:20
 REJECTED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:46:13-50:29
 	tools:node
-		ADDED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:24:154-186
+		ADDED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:23:154-186
 	android:screenOrientation
 		ADDED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:41:13-50
 		REJECTED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:41:13-50
@@ -143,7 +145,7 @@ REJECTED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Go
 		ADDED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:37:13-55
 		ADDED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:37:13-55
 	tools:replace
-		ADDED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:24:58-153
+		ADDED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:23:58-153
 	android:name
 		ADDED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:35:13-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.LAUNCHER
@@ -166,8 +168,8 @@ INJECTED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Go
 INJECTED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml
 MERGED from [godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:7:5-9:41
 MERGED from [godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:7:5-9:41
-MERGED from [LIBXR-debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/62f36cad8f549f28c4867f0fec567c24/transformed/jetified-LIBXR-debug/AndroidManifest.xml:5:5-7:41
-MERGED from [LIBXR-debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/62f36cad8f549f28c4867f0fec567c24/transformed/jetified-LIBXR-debug/AndroidManifest.xml:5:5-7:41
+MERGED from [LIBXR-debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/a8bf673ccc4828bb2443ba7caf111777/transformed/jetified-LIBXR-debug/AndroidManifest.xml:5:5-7:41
+MERGED from [LIBXR-debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/a8bf673ccc4828bb2443ba7caf111777/transformed/jetified-LIBXR-debug/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.fragment:fragment:1.3.6] /home/sarankdirector/.gradle/caches/transforms-3/189e80978ed2f28e12fcb892018fb934/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.3.6] /home/sarankdirector/.gradle/caches/transforms-3/189e80978ed2f28e12fcb892018fb934/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager:viewpager:1.0.0] /home/sarankdirector/.gradle/caches/transforms-3/60b70a67da3a50a8c8aaa4abfd2f41b4/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
@@ -208,30 +210,26 @@ INJECTED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Go
 	android:minSdkVersion
 		INJECTED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml
 		INJECTED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml
-uses-permission#android.permission.INTERNET
-ADDED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:11:5-67
-	android:name
-		ADDED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:11:22-64
 uses-feature#android.hardware.vulkan.level
-ADDED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:12:5-132
+ADDED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:11:5-132
 	android:version
-		ADDED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:12:110-129
+		ADDED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:11:110-129
+	tools:node
+		ADDED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:11:19-39
+	android:required
+		ADDED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:11:85-109
+	android:name
+		ADDED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:11:40-84
+uses-feature#android.hardware.vulkan.version
+ADDED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:12:5-140
+	android:version
+		ADDED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:12:111-137
 	tools:node
 		ADDED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:12:19-39
 	android:required
-		ADDED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:12:85-109
+		ADDED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:12:87-110
 	android:name
-		ADDED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:12:40-84
-uses-feature#android.hardware.vulkan.version
-ADDED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:13:5-140
-	android:version
-		ADDED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:13:111-137
-	tools:node
-		ADDED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:13:19-39
-	android:required
-		ADDED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:13:87-110
-	android:name
-		ADDED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:13:40-86
+		ADDED from /home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:12:40-86
 meta-data#org.godotengine.library.version
 ADDED from [godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:14:9-16:44
 	android:value
@@ -268,3 +266,9 @@ ADDED from [godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/tr
 		ADDED from [godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:33:17-61
 	android:name
 		ADDED from [godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:32:17-67
+meta-data#org.godotengine.plugin.v2.LIBXR
+ADDED from [LIBXR-debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/a8bf673ccc4828bb2443ba7caf111777/transformed/jetified-LIBXR-debug/AndroidManifest.xml:10:9-12:75
+	android:value
+		ADDED from [LIBXR-debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/a8bf673ccc4828bb2443ba7caf111777/transformed/jetified-LIBXR-debug/AndroidManifest.xml:12:13-72
+	android:name
+		ADDED from [LIBXR-debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/a8bf673ccc4828bb2443ba7caf111777/transformed/jetified-LIBXR-debug/AndroidManifest.xml:11:13-59

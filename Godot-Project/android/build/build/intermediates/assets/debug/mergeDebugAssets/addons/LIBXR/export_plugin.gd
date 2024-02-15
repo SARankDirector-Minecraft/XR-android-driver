@@ -31,7 +31,7 @@ class AndroidExportPlugin extends EditorExportPlugin:
 		if debug:
 			return PackedStringArray(["res://addons/LIBXR/LIBXR-debug.aar"])
 		else:
-			return PackedStringArray(["<paths_to_release_android_plugin_aar_binaries>"])
+			return PackedStringArray(["res://addons/LIBXR/LIBXR-debug.aar"])
 
 	# Return the plugin's name.
 	func _get_name():

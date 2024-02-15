@@ -26,125 +26,127 @@
 19-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:16:9-41
 20        android:required="true" />
 20-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:17:9-32
-21
-22    <uses-permission android:name="android.permission.INTERNET" />
-22-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:11:5-67
-22-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:11:22-64
-23
-24    <uses-feature
-24-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:12:5-132
-25        android:name="android.hardware.vulkan.level"
-25-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:12:40-84
-26        android:required="false"
-26-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:12:85-109
-27        android:version="1" />
-27-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:12:110-129
-28    <uses-feature
-28-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:13:5-140
-29        android:name="android.hardware.vulkan.version"
-29-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:13:40-86
-30        android:required="true"
-30-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:13:87-110
-31        android:version="0x400003" />
-31-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:13:111-137
-32
-33    <application
-33-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:19:5-53:19
-34        android:allowBackup="false"
-34-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:21:9-36
-35        android:appCategory="game"
-35-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:23:9-35
-36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-36-->[androidx.core:core:1.2.0] /home/sarankdirector/.gradle/caches/transforms-3/9bcb1a65f5938aad264f4d73e9a06f28/transformed/core-1.2.0/AndroidManifest.xml:24:18-86
-37        android:debuggable="true"
-38        android:extractNativeLibs="false"
-39        android:hasFragileUserData="false"
-39-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:25:9-43
-40        android:icon="@mipmap/icon"
-40-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:22:9-36
-41        android:isGame="true"
-41-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:24:9-30
-42        android:label="@string/godot_project_name_string"
-42-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:20:9-58
-43        android:requestLegacyExternalStorage="false" >
-43-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:26:9-53
-44        <activity
-44-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:34:9-51:20
-45            android:name="com.godot.game.GodotApp"
-45-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:35:13-37
-46            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize|density|keyboard|navigation|screenLayout|uiMode"
-46-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:42:13-141
-47            android:excludeFromRecents="false"
-47-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:39:13-47
-48            android:exported="true"
-48-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:40:13-36
-49            android:label="@string/godot_project_name_string"
-49-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:36:13-62
-50            android:launchMode="singleInstancePerTask"
-50-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:38:13-55
-51            android:resizeableActivity="true"
-51-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:43:13-47
-52            android:screenOrientation="landscape"
-52-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:41:13-50
-53            android:theme="@style/GodotAppSplashTheme" >
-53-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:37:13-55
-54            <intent-filter>
-54-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:46:13-50:29
-55                <action android:name="android.intent.action.MAIN" />
-55-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:47:17-69
-55-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:47:25-66
-56
-57                <category android:name="android.intent.category.DEFAULT" />
-57-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:48:17-76
-57-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:48:27-73
-58                <category android:name="android.intent.category.LAUNCHER" />
-58-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:49:17-77
-58-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:49:27-74
-59            </intent-filter>
-60        </activity>
-61        <!-- Records the version of the Godot editor used for building -->
+21    <uses-feature
+21-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:11:5-132
+22        android:name="android.hardware.vulkan.level"
+22-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:11:40-84
+23        android:required="false"
+23-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:11:85-109
+24        android:version="1" />
+24-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:11:110-129
+25    <uses-feature
+25-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:12:5-140
+26        android:name="android.hardware.vulkan.version"
+26-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:12:40-86
+27        android:required="true"
+27-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:12:87-110
+28        android:version="0x400003" />
+28-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/src/debug/AndroidManifest.xml:12:111-137
+29
+30    <application
+30-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:19:5-53:19
+31        android:allowBackup="false"
+31-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:21:9-36
+32        android:appCategory="game"
+32-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:23:9-35
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.2.0] /home/sarankdirector/.gradle/caches/transforms-3/9bcb1a65f5938aad264f4d73e9a06f28/transformed/core-1.2.0/AndroidManifest.xml:24:18-86
+34        android:debuggable="true"
+35        android:extractNativeLibs="false"
+36        android:hasFragileUserData="false"
+36-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:25:9-43
+37        android:icon="@mipmap/icon"
+37-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:22:9-36
+38        android:isGame="true"
+38-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:24:9-30
+39        android:label="@string/godot_project_name_string"
+39-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:20:9-58
+40        android:requestLegacyExternalStorage="false" >
+40-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:26:9-53
+41        <activity
+41-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:34:9-51:20
+42            android:name="com.godot.game.GodotApp"
+42-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:35:13-37
+43            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize|density|keyboard|navigation|screenLayout|uiMode"
+43-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:42:13-141
+44            android:excludeFromRecents="false"
+44-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:39:13-47
+45            android:exported="true"
+45-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:40:13-36
+46            android:label="@string/godot_project_name_string"
+46-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:36:13-62
+47            android:launchMode="singleInstancePerTask"
+47-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:38:13-55
+48            android:resizeableActivity="true"
+48-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:43:13-47
+49            android:screenOrientation="landscape"
+49-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:41:13-50
+50            android:theme="@style/GodotAppSplashTheme" >
+50-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:37:13-55
+51            <intent-filter>
+51-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:46:13-50:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:47:17-69
+52-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:47:25-66
+53
+54                <category android:name="android.intent.category.DEFAULT" />
+54-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:48:17-76
+54-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:48:27-73
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:49:17-77
+55-->/home/sarankdirector/AndroidStudioProjects/android-nreal-github/Godot-Project/android/build/AndroidManifest.xml:49:27-74
+56            </intent-filter>
+57        </activity>
+58        <!-- Records the version of the Godot editor used for building -->
+59        <meta-data
+60            android:name="org.godotengine.editor.version"
+61            android:value="4.2.1.stable" /> <!-- Records the version of the Godot library -->
 62        <meta-data
-63            android:name="org.godotengine.editor.version"
-64            android:value="4.2.1.stable" /> <!-- Records the version of the Godot library -->
-65        <meta-data
-65-->[godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:14:9-16:44
-66            android:name="org.godotengine.library.version"
-66-->[godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:15:13-59
-67            android:value="4.2.1.stable" />
-67-->[godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:16:13-41
-68
-69        <service android:name="org.godotengine.godot.GodotDownloaderService" />
-69-->[godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:18:9-80
-69-->[godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:18:18-77
-70
-71        <activity
-71-->[godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:20:9-24:75
-72            android:name="org.godotengine.godot.utils.ProcessPhoenix"
-72-->[godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:21:13-70
-73            android:exported="false"
-73-->[godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:22:13-37
-74            android:process=":phoenix"
-74-->[godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:23:13-39
-75            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-75-->[godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:24:13-72
-76
-77        <provider
-77-->[godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:26:9-34:20
-78            android:name="androidx.core.content.FileProvider"
-78-->[godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:27:13-62
-79            android:authorities="com.SARankDirector.XRDemo.fileprovider"
-79-->[godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:28:13-64
-80            android:exported="false"
-80-->[godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:29:13-37
-81            android:grantUriPermissions="true" >
-81-->[godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:30:13-47
-82            <meta-data
-82-->[godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:31:13-33:64
-83                android:name="android.support.FILE_PROVIDER_PATHS"
-83-->[godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:32:17-67
-84                android:resource="@xml/godot_provider_paths" />
-84-->[godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:33:17-61
-85        </provider>
-86    </application>
-87
-88</manifest>
+62-->[godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:14:9-16:44
+63            android:name="org.godotengine.library.version"
+63-->[godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:15:13-59
+64            android:value="4.2.1.stable" />
+64-->[godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:16:13-41
+65
+66        <service android:name="org.godotengine.godot.GodotDownloaderService" />
+66-->[godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:18:9-80
+66-->[godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:18:18-77
+67
+68        <activity
+68-->[godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:20:9-24:75
+69            android:name="org.godotengine.godot.utils.ProcessPhoenix"
+69-->[godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:21:13-70
+70            android:exported="false"
+70-->[godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:22:13-37
+71            android:process=":phoenix"
+71-->[godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:23:13-39
+72            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+72-->[godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:24:13-72
+73
+74        <provider
+74-->[godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:26:9-34:20
+75            android:name="androidx.core.content.FileProvider"
+75-->[godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:27:13-62
+76            android:authorities="com.SARankDirector.XRDemo.fileprovider"
+76-->[godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:28:13-64
+77            android:exported="false"
+77-->[godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:29:13-37
+78            android:grantUriPermissions="true" >
+78-->[godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:30:13-47
+79            <meta-data
+79-->[godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:31:13-33:64
+80                android:name="android.support.FILE_PROVIDER_PATHS"
+80-->[godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:32:17-67
+81                android:resource="@xml/godot_provider_paths" />
+81-->[godot-lib.template_debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/9a2d4eb6c6396b495fa445404429297b/transformed/jetified-godot-lib.template_debug/AndroidManifest.xml:33:17-61
+82        </provider>
+83
+84        <meta-data
+84-->[LIBXR-debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/a8bf673ccc4828bb2443ba7caf111777/transformed/jetified-LIBXR-debug/AndroidManifest.xml:10:9-12:75
+85            android:name="org.godotengine.plugin.v2.LIBXR"
+85-->[LIBXR-debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/a8bf673ccc4828bb2443ba7caf111777/transformed/jetified-LIBXR-debug/AndroidManifest.xml:11:13-59
+86            android:value="com.SARankDirector.libxr.GodotAndroidPlugin" />
+86-->[LIBXR-debug.aar] /home/sarankdirector/.gradle/caches/transforms-3/a8bf673ccc4828bb2443ba7caf111777/transformed/jetified-LIBXR-debug/AndroidManifest.xml:12:13-72
+87    </application>
+88
+89</manifest>
